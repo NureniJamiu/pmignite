@@ -18,15 +18,15 @@ const Vision = () => {
                 />
             </div>
             <div className="md:flex-1">
-                <div className=" flex items-center gap-3">
-                    <div className="flex items-center justify-center size-8 rounded-full p-1.5 bg-green-300">
+                <div className=" flex items-center gap-2 md:gap-3">
+                    <div className="flex items-center justify-center size-6 md:size-8 rounded-full p-1 md:p-1.5 bg-green-300">
                         <Telescope className="text-green-700" />
                     </div>
-                    <span className="dark:text-slate-300 ">Our vision</span>
+                    <span className="dark:text-slate-300 text-sm md:text-base">Our vision</span>
                 </div>
                 <div>
-                    <h1 className="dark:text-slate-300 text-5xl my-3">A peak into the future</h1>
-                    <p className=" dark:text-slate-400 max-w-xl text-lg">We envision a world where every aspiring project manager has the opportunity to
+                    <h1 className="dark:text-slate-300 text-4xl md:text-5xl my-3">A peak into the future</h1>
+                    <p className=" dark:text-slate-400 max-w-xl md:text-lg">We envision a world where every aspiring project manager has the opportunity to
                         gain practical experience and every organization can access the project management
                         expertise they need to thrive. Through our efforts, we aim to create a sustainable
                         ecosystem of growth, learning, and success for both project managers and
