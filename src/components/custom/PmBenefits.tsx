@@ -1,6 +1,7 @@
 import React from "react";
 import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
 import { Clipboard, Columns, File, Signal, Waves } from "lucide-react";
+import LinearGradient from "../magicui/linear-gradient";
 
 const items = [
     {
@@ -33,7 +34,7 @@ const items = [
 ];
 
 const PmBenefits = () => {
-    return <div className="bg-[#17172a] py-28">
+    return <div className="relative py-28">
         <div className="max-w-6xl mx-auto">
             <h4 className=" text-gray-300 text-center text-lg pb-2 ">What we promise</h4>
             <h1 className="text-4xl text-center py-2">Our Project Managers</h1>
@@ -50,6 +51,7 @@ const PmBenefits = () => {
                 ))}
             </BentoGrid>
         </div>
+        <LinearGradient from="#00000000" to="rgba(120,119,198,0.3)" />
     </div>;
 };
 

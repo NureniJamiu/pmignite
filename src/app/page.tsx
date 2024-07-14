@@ -1,3 +1,4 @@
+import Footer from "@/components/custom/Footer";
 import Header from "@/components/custom/Header";
 import Mission from "@/components/custom/Mission";
 import Navbar from "@/components/custom/Navbar";
@@ -16,6 +17,7 @@ export default function Home() {
       <WhatWeOffer />
       <Teams />
       <Testimonials />
+      <Footer />
     </main>
   );
 }
