@@ -34,7 +34,7 @@ const items = [
 ];
 
 const PmBenefits = () => {
-    return <div className="relative py-28">
+    return <div className="relative md:py-28 border-t py-10 md:border-none">
         <div className="max-w-6xl mx-auto px-5">
             <h4 className=" text-gray-300 text-center text-base md:text-lg md:pb-2 ">What we promise</h4>
             <h1 className="text-3xl md:text-4xl text-center py-1 md:py-2">Our Project Managers</h1>

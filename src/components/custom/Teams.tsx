@@ -12,14 +12,14 @@ import TEAM_THREE from "@/images/maleeq.jpg";
 
 const Teams = () => {
     return (
-        <div className="relative w-full rounded-t bg-background p-20 md:shadow-xl pt-28 pb-24 overflow-hidden">
-            <div className="max-w-6xl mx-auto">
+        <div className="relative w-full rounded-t bg-background md:p-20 md:shadow-xl md:pt-28 md:pb-24 overflow-hidden">
+            <div className="max-w-6xl mx-auto px-5">
                 <div className="text-center">
-                    <span className="text-xl">Our Team</span>
-                    <h1 className="dark:text-slate-300 text-5xl my-3">Meet our Team</h1>
+                    <span className="md:text-xl">Our Team</span>
+                    <h1 className="dark:text-slate-300 text-4xl md:text-5xl my-1 md:my-3">Meet our Team</h1>
                 </div>
 
-                <div className="py-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4 px-8">
+                <div className="py-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4 md:px-8">
                     <Card title="Nureni Jamiu O." image={TEAM_ONE}>
                         <CanvasRevealEffect
                             animationSpeed={3}
