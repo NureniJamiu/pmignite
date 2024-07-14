@@ -1,6 +1,7 @@
 import Header from "@/components/custom/Header";
 import Mission from "@/components/custom/Mission";
 import Navbar from "@/components/custom/Navbar";
+import Teams from "@/components/custom/Teams";
 import Testimonials from "@/components/custom/Testimonials";
 import Vision from "@/components/custom/Vision";
 import WhatWeOffer from "@/components/custom/WhatWeOffer";
@@ -13,6 +14,7 @@ export default function Home() {
       <Mission />
       <Vision />
       <WhatWeOffer />
+      <Teams />
       <Testimonials />
     </main>
   );
