@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
     return <div className="bg-background">
-        <div className="max-w-6xl mx-auto flex items-center justify-between py-4">
+        <div className="max-w-6xl mx-auto px-5 flex flex-col md:flex-row gap-3 md:gap-0 items-center justify-between py-4">
             <div className="text-gray-300 text-center">© 2024 PMIgnite. All rights reserved</div>
             <div className="flex items-center justify-between gap-4">
                 <Mail size={20} />
