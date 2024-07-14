@@ -42,8 +42,8 @@ const items = [
 ];
 
 const CompaniesBenefits = () => {
-    return <div className="pb-28 max-w-6xl mx-auto">
-        <h1 className="text-4xl text-center py-2">Our Partner Companies</h1>
+    return <div className="pb-28 max-w-6xl mx-auto px-5">
+        <h1 className="text-3xl md:text-4xl text-center py-2">Our Partner Companies</h1>
         <BentoGrid className=" mt-10">
             {items.map((item, i) => (
                 <BentoGridItem

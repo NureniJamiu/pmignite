@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Vision = () => {
     return <div className="relative w-full bg-background px-5 md:p-20 md:shadow-xl md:pt-36 md:py-48 overflow-hidden">
-        <div className="flex flex-col-reverse md:flex-row max-w-6xl mx-auto">
+        <div className="flex flex-col-reverse md:flex-row max-w-6xl mx-auto gap-10 md:gap-0">
             <div className="md:flex-1">
                 <Image
                     src={VISION_IMAGE}

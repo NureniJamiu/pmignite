@@ -35,9 +35,9 @@ const items = [
 
 const PmBenefits = () => {
     return <div className="relative py-28">
-        <div className="max-w-6xl mx-auto">
-            <h4 className=" text-gray-300 text-center text-lg pb-2 ">What we promise</h4>
-            <h1 className="text-4xl text-center py-2">Our Project Managers</h1>
+        <div className="max-w-6xl mx-auto px-5">
+            <h4 className=" text-gray-300 text-center text-base md:text-lg md:pb-2 ">What we promise</h4>
+            <h1 className="text-3xl md:text-4xl text-center py-1 md:py-2">Our Project Managers</h1>
             <BentoGrid className=" mt-10">
                 {items.map((item, i) => (
                     <BentoGridItem
@@ -46,7 +46,6 @@ const PmBenefits = () => {
                         description={item.description}
                         icon={item.icon}
                         className={`flex items-center justify-center dark:bg-background ${item.className}`}
-                    // className={`dark:bg-background ${i === 2 ? "md:col-span-2" : ""}`}
                     />
                 ))}
             </BentoGrid>
