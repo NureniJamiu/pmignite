@@ -6,18 +6,18 @@ import VISION_IMAGE from "@/images/vision.svg";
 import Image from "next/image";
 
 const Vision = () => {
-    return <div className="relative w-full bg-background p-20 md:shadow-xl pt-36 py-48 overflow-hidden">
-        <div className="flex max-w-6xl mx-auto">
-            <div className="flex-1">
+    return <div className="relative w-full bg-background px-5 md:p-20 md:shadow-xl md:pt-36 md:py-48 overflow-hidden">
+        <div className="flex flex-col-reverse md:flex-row max-w-6xl mx-auto">
+            <div className="md:flex-1">
                 <Image
                     src={VISION_IMAGE}
                     alt="Mission Image"
                     width={700}
                     height={600}
-                    className="absolute -bottom-16 -left-48 transform scale-x-[-1]"
+                    className="md:absolute -bottom-16 -left-48 transform scale-x-[-1]"
                 />
             </div>
-            <div className="flex-1">
+            <div className="md:flex-1">
                 <div className=" flex items-center gap-3">
                     <div className="flex items-center justify-center size-8 rounded-full p-1.5 bg-green-300">
                         <Telescope className="text-green-700" />
