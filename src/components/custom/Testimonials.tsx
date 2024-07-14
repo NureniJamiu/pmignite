@@ -70,7 +70,7 @@ const Testimonials = () => {
     return (
         <div className="relative flex w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl py-28">
             <div className="mb-8">
-                <h4 className=" text-gray-300 text-center text-lg ">Testimonials</h4>
+                <h4 className=" text-gray-300 text-center md:text-lg ">Testimonials</h4>
                 <h1 className="text-4xl text-center py-2">What people say about us</h1>
             </div>
             <Marquee pauseOnHover className="[--duration:20s]">
