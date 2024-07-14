@@ -68,7 +68,7 @@ const TestimonialCard = ({
 
 const Testimonials = () => {
     return (
-        <div className="relative flex w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl py-28">
+        <div className="relative flex w-full flex-col items-center justify-center overflow-hidden rounded-lg border-y bg-background md:shadow-xl py-10 md:py-28">
             <div className="mb-8">
                 <h4 className=" text-gray-300 text-center md:text-lg ">Testimonials</h4>
                 <h1 className="text-4xl text-center py-2">What people say about us</h1>
