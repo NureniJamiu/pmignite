@@ -28,7 +28,7 @@ export const GoogleGeminiEffect = ({
             >
                 Connecting companies to dedicated project managers
             </h1>
-            <p className="text-sm md:text-xl font-normal px-4 text-center text-neutral-400 mt-4 max-w-80 md:max-w-lg mx-auto">
+            <p className="md:text-xl font-normal px-4 text-center text-neutral-400 mt-2 max-w-80 md:max-w-lg mx-auto">
                 We connect startups/companies in need of project management services with freshly-minted, dedicated project managers.
             </p>
             <div className=" w-full h-[890px] -top-60 md:-top-40 flex items-center justify-center bg-red-transparent absolute ">
@@ -42,11 +42,10 @@ export const GoogleGeminiEffect = ({
                     <span className="text-sm">Join waitlist</span> <ArrowRight />
                 </div>
             </div> */}
-            <div className="flex items-center justify-center gap-2 md:hidden mt-10 px-5 text-center">
+            <div className="flex items-center justify-center gap-2 md:hidden mt-14 px-5 text-center">
                 <Button type="submit" className="w-full bg-inherit border text-gray-400 rounded-2xl py-6">Join waitlist</Button>
                 <Button type="submit" className="w-full bg-blue-400 rounded-2xl py-6">Get started</Button>
             </div>
-            <p className="md:hidden mt-3 text-blue-400 text-center text-xs">No upfront payment required.</p>
             <svg
                 width="1440"
                 height="890"
