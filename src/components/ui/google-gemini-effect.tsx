@@ -4,6 +4,9 @@ import { cn } from "@/utils/cn";
 import { motion, MotionValue } from "framer-motion";
 
 import { HeroHighlight, Highlight } from "./hero-highlight";
+import { Input } from "./input";
+import { Button } from "./button";
+import { ArrowBigRight, ArrowBigRightDash, ArrowRight, ArrowRightCircle } from "lucide-react";
 
 const transition = {
     duration: 0,
@@ -21,7 +24,7 @@ export const GoogleGeminiEffect = ({
     return (
         <div className={cn("md:sticky top-0", className)}>
             <h1
-                className="max-w-6xl mx-auto text-4xl px-5  md:text-7xl font-normal pb-4 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300"
+                className="max-w-6xl mx-auto text-4xl px-5  md:text-7xl font-normal pb-4 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300 capitalize"
             >
                 Connecting companies to dedicated project managers
             </h1>
@@ -32,6 +35,13 @@ export const GoogleGeminiEffect = ({
                 <button className="hidden md:inline-block font-bold bg-white rounded-full md:px-4 md:py-2 px-2 py-1 md:mt-28 mt-8 z-30 md:text-base text-black text-xs w-fit mx-auto ">
                     PMIgnite
                 </button>
+            </div>
+            <div className="relative mt-10 px-5 flex md:hidden w-full max-w-sm items-center space-x-2 z-10">
+                <Input type="email" placeholder="Email" className="rounded-full border py-5" />
+                {/* <Button type="submit">Join waitlist</Button> */}
+                <div className="absolute right-7 top-1 flex items-center justify-center bg-blue-500 size-8 p-2 rounded-full hover:scale-105 transition-all">
+                    <ArrowRight />
+                </div>
             </div>
             <svg
                 width="1440"
