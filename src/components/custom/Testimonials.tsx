@@ -55,23 +55,23 @@ const TestimonialCard = ({
             <div className="flex flex-row items-center gap-2">
                 <img className="rounded-full" width="32" height="32" alt="" src={img} />
                 <div className="flex flex-col">
-                    <figcaption className="text-sm font-medium dark:text-white">
+                    <figcaption className="text-xs md:text-sm font-medium dark:text-white">
                         {name}
                     </figcaption>
                     <p className="text-xs font-medium dark:text-white/40">{username}</p>
                 </div>
             </div>
-            <blockquote className="mt-2 text-sm">{body}</blockquote>
+            <blockquote className="mt-2 text-xs md:text-sm">{body}</blockquote>
         </figure>
     );
 };
 
 const Testimonials = () => {
     return (
-        <div className="relative flex w-full flex-col items-center justify-center overflow-hidden rounded-lg border-y bg-background md:shadow-xl py-10 md:py-28">
+        <div className="relative flex w-full flex-col items-center justify-center overflow-hidden border-y bg-background md:shadow-xl py-10 md:py-28">
             <div className="mb-8">
                 <h4 className=" text-gray-300 text-center md:text-lg ">Testimonials</h4>
-                <h1 className="text-4xl text-center py-2">What people say about us</h1>
+                <h1 className="w-72 mx-auto md:w-full text-3xl md:text-4xl text-center py-2">What people say about us</h1>
             </div>
             <Marquee pauseOnHover className="[--duration:20s]">
                 {firstRow.map((review) => (
