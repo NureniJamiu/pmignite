@@ -6,7 +6,7 @@ import MISSION_IMAGE from "@/images/mission.svg";
 import Image from "next/image";
 
 const Mission = () => {
-    return <div className="relative w-full rounded-t bg-background p-5 pt-14 md:p-20 md:shadow-xl md:pt-28 pb-48 overflow-hidden">
+    return <div className="relative w-full md:rounded-t bg-background p-5 pt-14 md:p-20 md:shadow-xl md:pt-28 pb-48 overflow-hidden">
         <div className="flex flex-col gap-8 md:gap-0 md:flex-row max-w-6xl mx-auto">
             <div className="md:flex-1">
                 <div className="flex items-center md:justify-normal gap-3">
