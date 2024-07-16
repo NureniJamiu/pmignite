@@ -24,11 +24,11 @@ export const GoogleGeminiEffect = ({
     return (
         <div className={cn("md:sticky top-0", className)}>
             <h1
-                className="max-w-6xl mx-auto text-4xl px-5  md:text-7xl font-normal md:pb-4 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300 capitalize"
+                className="max-w-6xl mx-auto text-4xl px-5  md:text-7xl md:pb-4 text-center bg-clip-text font-semibold md:font-normal text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300 capitalize"
             >
                 Connecting companies to dedicated project managers
             </h1>
-            <p className="md:text-xl font-normal px-4 text-center text-neutral-400 mt-2 max-w-80 md:max-w-lg mx-auto">
+            <p className="md:text-xl font-normal px-4 text-center text-neutral-400 mt-4 max-w-80 md:max-w-lg mx-auto">
                 We connect startups/companies in need of project management services with freshly-minted, dedicated project managers.
             </p>
             <div className=" w-full h-[890px] -top-60 md:-top-40 flex items-center justify-center bg-red-transparent absolute ">

@@ -36,10 +36,10 @@ const Header = () => {
                     pathLengthFifth,
                 ]}
             />
-            {/* <div className="absolute bottom-20 left-0 w-full px-16 z-50 flex flex-col items-center justify-center gap-2 md:hidden text-center">
+            <div className="relative mt-10 w-full px-16 z-50 flex flex-col items-center justify-center gap-2 md:hidden text-center">
                 <Button type="submit" className="w-full bg-background border text-gray-400 rounded-2xl py-6 shadow-lg">Join waitlist</Button>
                 <Button type="submit" className="w-full bg-blue-400 shadow-lg rounded-2xl py-6 font-semibold text-white">Get started</Button>
-            </div> */}
+            </div>
             <div className="absolute -bottom-1 left-0 md:hidden w-full">
                 <Image
                     src={WAVE_IMAGE}
