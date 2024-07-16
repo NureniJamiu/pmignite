@@ -7,6 +7,12 @@ import { HeroHighlight, Highlight } from "./hero-highlight";
 import { Input } from "./input";
 import { Button } from "./button";
 import { ArrowBigRight, ArrowBigRightDash, ArrowRight, ArrowRightCircle } from "lucide-react";
+import Image from "next/image";
+
+// import DOODLE_1 from '@/images/emoji.svg'
+import DOODLE_1 from '@/images/search-2.svg'
+import DOODLE_2 from '@/images/search-1.svg'
+import DOODLE_3 from '@/images/thumble.svg'
 
 const transition = {
     duration: 0,
@@ -36,6 +42,28 @@ export const GoogleGeminiEffect = ({
                     PMIgnite
                 </button>
             </div>
+
+            <Image
+                src={DOODLE_1}
+                width={500}
+                height={500}
+                alt="Doodle image"
+                className="absolute w-16 h-16 left-10 top-14 md:left-20 md:top-0 md:w-24 md:h-24 -rotate-45"
+            />
+            <Image
+                src={DOODLE_2}
+                width={500}
+                height={500}
+                alt="Doodle image"
+                className="absolute w-16 h-16 right-8 top-14 md:right-20 md:-top-5 md:w-28 md:h-28 rotate-45"
+            />
+            <Image
+                src={DOODLE_3}
+                width={500}
+                height={500}
+                alt="Doodle image"
+                className="absolute top-44 right-16 md:right-72 md:top-32 w-14 h-14 md:w-24 md:h-24 "
+            />
             <svg
                 width="1440"
                 height="890"
