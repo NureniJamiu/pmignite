@@ -24,7 +24,7 @@ const Header = () => {
 
     return (
         <div
-            className="dark:bg-background h-[calc(100vh-3em)] md:h-[400vh] w-full relative pt-16 md:pt-20 overflow-clip"
+            className="dark:bg-background h-[80vh] md:h-[400vh] w-full relative pt-16 md:pt-20 overflow-clip"
             ref={ref}
         >
             <GoogleGeminiEffect
