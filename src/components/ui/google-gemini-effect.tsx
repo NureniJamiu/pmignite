@@ -8,11 +8,6 @@ import { Input } from "./input";
 import { Button } from "./button";
 import { ArrowBigRight, ArrowBigRightDash, ArrowRight, ArrowRightCircle } from "lucide-react";
 
-import Image from "next/image";
-
-import WAVE_IMAGE from "@/images/wave.png"
-
-
 const transition = {
     duration: 0,
     ease: "linear",
@@ -27,13 +22,12 @@ export const GoogleGeminiEffect = ({
     className?: string;
 }) => {
     return (
-        <div className={cn("relative h-[calc(100vh-6em)] md:sticky top-0", className)}>
+        <div className={cn("md:sticky top-0", className)}>
             <h1
                 className="max-w-6xl mx-auto text-4xl px-5  md:text-7xl font-normal md:pb-4 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300 capitalize"
             >
                 Connecting companies to dedicated project managers
             </h1>
-
             <p className="md:text-xl font-normal px-4 text-center text-neutral-400 mt-2 max-w-80 md:max-w-lg mx-auto">
                 We connect startups/companies in need of project management services with freshly-minted, dedicated project managers.
             </p>
@@ -41,25 +35,6 @@ export const GoogleGeminiEffect = ({
                 <button className="hidden md:inline-block font-bold bg-white rounded-full md:px-4 md:py-2 px-2 py-1 md:mt-28 mt-8 z-30 md:text-base text-black text-xs w-fit mx-auto ">
                     PMIgnite
                 </button>
-            </div>
-            {/* <div className="relative mt-10 px-5 flex md:hidden w-full max-w-sm items-center space-x-2 z-10">
-                <Input type="email" placeholder="Email" className="rounded-lg border py-6" />
-                <div className="absolute right-6 top-1 flex items-center justify-center bg-blue-400 p-2 rounded-lg hover:scale-105 transition-all">
-                    <span className="text-sm">Join waitlist</span> <ArrowRight />
-                </div>
-            </div> */}
-            <div className="absolute bottom-20 left-0 w-full px-16 z-50 flex flex-col items-center justify-center gap-2 md:hidden text-center">
-                <Button type="submit" className="w-full bg-background border text-gray-400 rounded-2xl py-6 shadow-lg">Join waitlist</Button>
-                <Button type="submit" className="w-full bg-blue-400 shadow-lg rounded-2xl py-6 font-semibold text-white">Get started</Button>
-            </div>
-            <div className="absolute -bottom-1 left-0 md:hidden w-full">
-                <Image
-                    src={WAVE_IMAGE}
-                    width={500}
-                    height={500}
-                    className="h-52"
-                    alt="Wave image"
-                />
             </div>
             <svg
                 width="1440"
@@ -186,3 +161,10 @@ export const GoogleGeminiEffect = ({
         </div>
     );
 };
+
+{/* <div className="relative mt-10 px-5 flex md:hidden w-full max-w-sm items-center space-x-2 z-10">
+                <Input type="email" placeholder="Email" className="rounded-lg border py-6" />
+                <div className="absolute right-6 top-1 flex items-center justify-center bg-blue-400 p-2 rounded-lg hover:scale-105 transition-all">
+                    <span className="text-sm">Join waitlist</span> <ArrowRight />
+                </div>
+            </div> */}

@@ -5,6 +5,8 @@ import { useScroll, useTransform } from "framer-motion";
 import { GoogleGeminiEffect } from "../ui/google-gemini-effect";
 import Image from "next/image";
 
+import WAVE_IMAGE from "@/images/wave.png"
+import { Button } from "../ui/button";
 
 
 const Header = () => {
@@ -22,7 +24,7 @@ const Header = () => {
 
     return (
         <div
-            className="dark:bg-background md:h-[400vh] w-full relative pt-16 md:pt-20 overflow-clip"
+            className="dark:bg-background h-[calc(100vh-3em)] md:h-[400vh] w-full relative pt-16 md:pt-20 overflow-clip"
             ref={ref}
         >
             <GoogleGeminiEffect
@@ -34,7 +36,19 @@ const Header = () => {
                     pathLengthFifth,
                 ]}
             />
-
+            {/* <div className="absolute bottom-20 left-0 w-full px-16 z-50 flex flex-col items-center justify-center gap-2 md:hidden text-center">
+                <Button type="submit" className="w-full bg-background border text-gray-400 rounded-2xl py-6 shadow-lg">Join waitlist</Button>
+                <Button type="submit" className="w-full bg-blue-400 shadow-lg rounded-2xl py-6 font-semibold text-white">Get started</Button>
+            </div> */}
+            <div className="absolute -bottom-1 left-0 md:hidden w-full">
+                <Image
+                    src={WAVE_IMAGE}
+                    width={500}
+                    height={500}
+                    className="h-52"
+                    alt="Wave image"
+                />
+            </div>
         </div>
     );
 }
