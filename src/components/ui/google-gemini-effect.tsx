@@ -48,21 +48,21 @@ export const GoogleGeminiEffect = ({
                 width={500}
                 height={500}
                 alt="Doodle image"
-                className="absolute w-16 h-16 left-10 top-14 md:left-20 md:top-0 md:w-24 md:h-24 -rotate-45"
+                className="absolute w-16 h-16 left-6 top-14 md:left-20 md:top-0 md:w-24 md:h-24 -rotate-45"
             />
             <Image
                 src={DOODLE_2}
                 width={500}
                 height={500}
                 alt="Doodle image"
-                className="absolute w-16 h-16 right-8 top-14 md:right-20 md:-top-5 md:w-28 md:h-28 rotate-45"
+                className="absolute w-16 h-16 right-4 top-14 md:right-20 md:-top-5 md:w-28 md:h-28 rotate-45"
             />
             <Image
                 src={DOODLE_3}
                 width={500}
                 height={500}
                 alt="Doodle image"
-                className="absolute top-44 right-16 md:right-72 md:top-32 w-14 h-14 md:w-24 md:h-24 "
+                className="absolute top-44 right-10 md:right-72 md:top-32 w-14 h-14 md:w-24 md:h-24 "
             />
             <svg
                 width="1440"
