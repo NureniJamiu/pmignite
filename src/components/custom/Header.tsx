@@ -3,6 +3,9 @@ import React from "react";
 
 import { useScroll, useTransform } from "framer-motion";
 import { GoogleGeminiEffect } from "../ui/google-gemini-effect";
+import Image from "next/image";
+
+import WAVE_IMAGE from "@/images/wave.svg"
 
 
 const Header = () => {
@@ -20,7 +23,7 @@ const Header = () => {
 
     return (
         <div
-            className="dark:bg-background pb-10 md:h-[400vh] w-full rounded-md relative pt-16 md:pt-20 overflow-clip"
+            className="dark:bg-background pb-32 md:h-[400vh] w-full relative pt-16 md:pt-20 overflow-clip"
             ref={ref}
         >
             <GoogleGeminiEffect
@@ -32,6 +35,14 @@ const Header = () => {
                     pathLengthFifth,
                 ]}
             />
+            <div className="absolute bottom-0 left-0 md:hidden">
+                <Image
+                    src={WAVE_IMAGE}
+                    width={500}
+                    height={500}
+                    alt="Wave image"
+                />
+            </div>
         </div>
     );
 }
