@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import LOGO from "@/images/logo.png";
 import { MenuIcon, RedoDot } from "lucide-react";
+import DialogButton from "./Dialog";
 
 const Navbar = () => {
     return <div className="sticky left-0 top-2 w-full z-50 px-5">
@@ -15,11 +16,9 @@ const Navbar = () => {
                     objectFit="contain"
                 />
             </div>
-            <button className="hidden md:inline-flex gap-2 py-2 md:py-3 animate-shimmer items-center justify-center text-sm md:text-base rounded-lg md:rounded-xl border border-slate-800 bg-background bg-[length:200%_100%] px-6 md:font-medium text-gray-300 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-                Join waitlist
-                <RedoDot className="hidden md:inline-flex" />
-            </button>
-
+            <div className="hidden md:inline-flex">
+                <DialogButton />
+            </div>
             <div className="md:hidden size-10 border p-2 rounded-lg">
                 <MenuIcon className="text-gray-200" />
             </div>
