@@ -21,7 +21,7 @@ const Faq = () => {
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-2">
-                    <AccordionTrigger>How can my company benefit from PMIgnite's services?</AccordionTrigger>
+                    <AccordionTrigger>How can my company benefit from PMIgnite&apos;s services?</AccordionTrigger>
                     <AccordionContent>
                         Your company can gain access to skilled project managers who volunteer their expertise to help streamline your projects, enhance productivity, and achieve your business goals.
                     </AccordionContent>
@@ -33,7 +33,7 @@ const Faq = () => {
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-4">
-                    <AccordionTrigger>Is there a cost associated with PMIgnite's services?</AccordionTrigger>
+                    <AccordionTrigger>Is there a cost associated with PMIgnite&apos;s services?</AccordionTrigger>
                     <AccordionContent>
                         No, PMIgnite provides project management support to companies free of charge. Our goal is to foster mutual growth and success.
                     </AccordionContent>
