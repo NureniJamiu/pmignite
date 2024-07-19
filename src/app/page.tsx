@@ -6,6 +6,7 @@ import Teams from "@/components/custom/Teams";
 import Testimonials from "@/components/custom/Testimonials";
 import Vision from "@/components/custom/Vision";
 import WhatWeOffer from "@/components/custom/WhatWeOffer";
+import Faq from "../components/custom/Faq";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Vision />
       <WhatWeOffer />
       <Teams />
+      <Faq />
       <Testimonials />
       <Footer />
     </main>
