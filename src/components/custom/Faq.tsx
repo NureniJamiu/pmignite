@@ -29,7 +29,7 @@ const Faq = () => {
                 <AccordionItem value="item-3">
                     <AccordionTrigger>How do I get started as a project manager with PMIgnite?</AccordionTrigger>
                     <AccordionContent>
-                        Simply sign up on our website, create your profile, and we'll match you with a company that aligns with your skills and aspirations.
+                        Simply sign up on our website, create your profile, and we&apos;ll match you with a company that aligns with your skills and aspirations.
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-4">
@@ -47,7 +47,7 @@ const Faq = () => {
                 <AccordionItem value="item-6">
                     <AccordionTrigger>What types of projects can project managers expect to work on?</AccordionTrigger>
                     <AccordionContent>
-                        Project managers can work on a variety of projects, including product development, marketing campaigns, operational improvements, and more, depending on the company's needs.
+                        Project managers can work on a variety of projects, including product development, marketing campaigns, operational improvements, and more, depending on the company&apos;s needs.
                     </AccordionContent>
                 </AccordionItem>
             </Accordion>
