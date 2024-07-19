@@ -9,11 +9,11 @@ const Mission = () => {
     return <div className="relative w-full md:rounded-t bg-background p-5 pt-14 md:p-20 md:shadow-xl md:pt-28 pb-48 overflow-hidden">
         <div className="flex flex-col gap-8 md:gap-0 md:flex-row max-w-6xl mx-auto">
             <div className="md:flex-1">
-                <div className="flex items-center md:justify-normal gap-3">
-                    <div className="flex items-center justify-center size-8 rounded-full p-1.5 bg-indigo-300">
+                <div className="flex items-center md:justify-normal gap-2 md:gap-3">
+                    <div className="flex items-center justify-center size-6 md:size-8 rounded-full p-1 md:p-1.5 bg-indigo-300">
                         <TrendingUp className=" text-indigo-700" />
                     </div>
-                    <span className="dark:text-slate-300 ">Our mission</span>
+                    <span className="dark:text-slate-300 text-sm md:text-base">Our mission</span>
                 </div>
                 <div>
                     <h1 className="dark:text-slate-300 text-4xl md:font-medium md:text-5xl my-3">What drives us</h1>
