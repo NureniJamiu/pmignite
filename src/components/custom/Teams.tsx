@@ -22,7 +22,7 @@ const Teams = () => {
                     <h1 className="dark:text-slate-300 text-4xl md:text-5xl my-1 md:my-3">Meet our Team</h1>
                 </div>
 
-                <div className="py-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4 md:px-8">
+                <div className="py-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4 px-8 md:px-8">
                     <Carousell firstImg={TEAM_ONE} secondImg={TEAM_TWO} thirdImg={TEAM_THREE} fourthImg={TEAM_FOUR} />
                 </div>
             </div>
